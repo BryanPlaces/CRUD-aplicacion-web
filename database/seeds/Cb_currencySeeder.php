@@ -35,30 +35,5 @@ class Cb_currencySeeder extends Seeder
 
 
     }
-
-
-    /**
-
-    User::create([
-    //        DB::table('users')->insert([
-    'name' => 'veronica jaqueline',
-    'email' => 'veronica@gmail.com',
-    'password' => bcrypt('vero'),
-    'profession_id' => $professionId,
-    'is_admin'=> true,
-    ]);
-
-    // Se crea un usuario con valores aleatorios salvo profession_id
-    factory(User::class)->create([
-    'profession_id'=>$professionId,
-    ]);
-
-    // Se crea un usuario con valores aleatorios
-    factory(User::class, 48)->create();
-
-
-
-     */
-
 }
 

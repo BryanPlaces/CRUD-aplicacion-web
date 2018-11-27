@@ -17,14 +17,3 @@ $factory->define(App\CbCurrency::class, function (Faker $faker) {
     ];
 });
 
-/*
-'idcurrency'=>'7',
-            'currency'=>'Euro',
-            'description'=>'Euro',
-            'isactive'=>'Y',
-            'isocode'=>'EUR',
-            'cursymbol'=>'E',
-            'precisioncost'=>2.00,
-            'precisionstd'=>4.00,
-            'precisionprize'=>4.00
-*/
