@@ -1,4 +1,8 @@
-<h1>Moneda {{ $moneda -> currency }}</h1>
+@extends('app')
+@section('content')
+
+
+    <h1>Moneda {{ $moneda -> currency }}</h1>
 
 <p>Id moneda: {{ $moneda -> idcurrency}}</p>
 <p>Moneda: {{ $moneda -> currency }}</p>
@@ -12,3 +16,4 @@
 
 <a href=" {{ route('monedas.index') }}">Volver al índice</a>
 <a href=" {{ route('monedas.show', $moneda->idcurrency) }}">Recargar</a>
+@stop

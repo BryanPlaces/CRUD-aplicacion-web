@@ -1,3 +1,7 @@
+@extends('app')
+@section('content')
+
+
 <h1 class="text-primary">Lista de monedas</h1>
 
 <table class="table table-bordered" id="tableMonedas">
@@ -36,3 +40,4 @@
         </tr>
     </tfoot>
 </table>
+@stop
